@@ -1,0 +1,47 @@
+
+.navbar {
+  background-color: white;
+}
+.container{
+  background-color: white;
+  width: 100%;
+  font-size: 120%;
+  float:left;
+}
+.navitem {
+  padding-left: 10px;
+  padding-right:10px;
+}
+.navbar_main
+{
+  background-color: white;
+  float:left;
+}
+.navbar_main:hover
+{
+  font-style:normal;
+  text-decoration: none;
+}
+ul {
+  font-size: 85%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a:hover {
+  color: darkgray;
+  font-weight:bold;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: black;
+}
+
