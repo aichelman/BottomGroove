@@ -1,10 +1,10 @@
-import { RouterModule, Routes } from '@angular/router'
-import {BlogComponent} from "./blog/blog.component";
-import {AppComponent} from "./app/app.component";
-import {ProshopComponent} from "./proshop/proshop.component";
-import {AboutComponent} from "./about/about.component";
+import { RouterModule, Routes } from '@angular/router';
+import {BlogComponent} from './blog/blog.component';
+import {AppComponent} from './app/app.component';
+import {ProshopComponent} from './proshop/proshop.component';
+import {AboutComponent} from './about/about.component';
 
-const routerConfig : Routes = [
+const routerConfig: Routes = [
   {
     path:'about',
     component: AboutComponent

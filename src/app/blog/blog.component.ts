@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class BlogComponent {
-  title="BlogComponent"
+  title= 'BlogComponent';
 }
