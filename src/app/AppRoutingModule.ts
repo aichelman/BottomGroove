@@ -13,10 +13,10 @@ const routerConfig: Routes = [
     path:'proshop',
     component: ProshopComponent
   },
-{
-path:'blogs',
-component: BlogComponent
-},
+    {
+        path:'blogs',
+        component: BlogComponent
+    },
 {
 path:'**',
 redirectTo : '/home',
@@ -28,5 +28,5 @@ redirectTo : '/home',
 pathMatch: 'full'}
 ];
 
-export default routerConfig
+export default routerConfig;
 
